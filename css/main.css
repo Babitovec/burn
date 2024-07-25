@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+.streak {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    margin: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.background-streak {
+    position: absolute;
+    z-index: 0;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.day-streak {
+    z-index: 1;
+    color: #FFE9A5;
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.calendar {
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.username {
+    color: #FFE9A5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.burn-logo-score {
+    width: 60px;
+    height: 60px;
+}
+
+.score-count {
+    color: #FFE9A5;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.chests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.chests-background {
+    width: 350px;
+    height: 160px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.in-chests{
+    height: 160px;
+    width: 350px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chests-header {
+    display: flex;
+    justify-content: start;
+    color: #FFE9A5;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 12vh;
+}
+
+.chest {
+    width: 10vh;
+    height: 10vh;
+}
+
+.open-chest {
+    color: #FFE9A5;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around; /* Распределяет элементы по ширине контейнера */
+    color: #000000; /* Фон для навигации */
+    margin-top: 30px; /* Отступы сверху и снизу */
+}
+
+.nav-item {
+    color: #FFE9A5; /* Цвет текста */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убирает подчеркивание */
+    font-size: 14px; /* Размер шрифта */
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение иконки и текста */
+    align-items: center; /* Центрирование элементов */
+}
+
+.nav-item img {
+    width: 24px; /* Ширина иконки */
+    height: 24px; /* Высота иконки */
+    margin-bottom: 5px; /* Отступ между иконкой и текстом */
+}
