@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
+    height: 100vh;
 }
 
 .background-streak {
@@ -125,9 +125,10 @@ body {
 
 .navigation {
     display: flex;
-    justify-content: space-around; /* Распределяет элементы по ширине контейнера */
-    color: #000000; /* Фон для навигации */
-    margin-top: 10px; /* Отступы сверху и снизу */
+    justify-content: space-around;
+    width: 100%; /* Обеспечивает, что элементы будут распределены по всей ширине */
+    background-color: #000000; /* Фон для навигации */
+    margin-bottom: 40px;
 }
 
 .nav-item {
