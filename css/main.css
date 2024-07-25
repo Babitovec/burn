@@ -13,7 +13,6 @@ body {
     align-items: center;
     float: right;
     margin: 10px;
-    padding-right: 10px;
 }
 
 .container {
@@ -128,7 +127,7 @@ body {
     display: flex;
     justify-content: space-around; /* Распределяет элементы по ширине контейнера */
     color: #000000; /* Фон для навигации */
-    margin-top: 30px; /* Отступы сверху и снизу */
+    margin-top: 10px; /* Отступы сверху и снизу */
 }
 
 .nav-item {
