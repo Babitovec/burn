@@ -130,7 +130,8 @@ body {
     bottom: 0;
     width: 100%; /* Обеспечивает, что элементы будут распределены по всей ширине */
     background-color: #000000; /* Фон для навигации */
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .nav-item {
