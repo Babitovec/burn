@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.burn-emoji-animated {
+    width: 100px;
+    height: 100px;
+    margin-top: 4vh;
+}
+
+.frens-header {
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    text-align: center;
+}
+
+.claim-frens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgba(255, 255, 255, 0.144);
+    border-radius: 25px;
+    width: 85vw;
+    height: 33vw;
+}
+
+.burn-logo-claim {
+    width: 3vh;
+    height: 3vh;
+}
+
+.claimable-burn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.claimable-burn-count {
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.claim-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирование по горизонтали и вертикали */
+    height: 35px;
+    width: 75px;
+    border-radius: 25px;
+    background-color: #439b52;
+}
+
+.claim {
+    color: white;
+    font-size: 1.65vh;
+    font-weight: 650;
+    text-align: center;
+}
+
+.frens-discription {
+    color: white;
+    font-size: 15px;
+    opacity: 65%;
+    text-align: center;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    width: 85vw;
+}
+
+.frens-count {
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-align: left;
+    width: 85vw;
+}
+
+.frens-invited-container {
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Обеспечивает, что элементы будут распределены по всей ширине */
+    background-color: #000000; /* Фон для навигации */
+    padding-bottom: 5vh;
+}
+
+.nav-item {
+    color: #FFE9A5; /* Цвет текста */
+    text-align: center; /* Центрирование текста */
+    text-decoration: none; /* Убирает подчеркивание */
+    font-size: 14px; /* Размер шрифта */
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение иконки и текста */
+    align-items: center; /* Центрирование элементов */
+}
+
+.nav-item img {
+    width: 24px; /* Ширина иконки */
+    height: 24px; /* Высота иконки */
+    margin-bottom: 5px; /* Отступ между иконкой и текстом */
+}
