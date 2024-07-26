@@ -1,3 +1,4 @@
-const tg = window.Telegram.WebApp
+const tg = window.Telegram.WebApp //позволяет работать с тг апи
 
-tg.expand();
+tg.expand(); //растягивает на фулл скрин при запуске
+tg.disableVerticalSwipes() //Отключает скролл
