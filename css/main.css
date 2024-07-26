@@ -83,7 +83,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
 }
 
 .chests-background {
@@ -126,7 +126,8 @@ body {
 .navigation {
     display: flex;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
+    bottom: 0;
     width: 100%; /* Обеспечивает, что элементы будут распределены по всей ширине */
     background-color: #000000; /* Фон для навигации */
     margin-bottom: 40px;
