@@ -14,15 +14,18 @@ body {
 }
 
 .burn-logo {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
+    margin-top: 3.5vh;
 }
 
 .tasks-header {
     color: white;
-    font-size: 30px;
+    font-size: 3vh;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    text-align: center;
 }
 
 .tasks-description {
@@ -53,7 +56,7 @@ body {
 
 .title {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 650;
     padding-bottom: 1vh;
 }
@@ -92,7 +95,7 @@ body {
 }
 
 .nav-item {
-    color: #FFE9A5; /* Цвет текста */
+    color: #ffffff; /* Цвет текста */
     text-align: center; /* Центрирование текста */
     text-decoration: none; /* Убирает подчеркивание */
     font-size: 14px; /* Размер шрифта */
