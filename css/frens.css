@@ -14,9 +14,9 @@ body {
 }
 
 .burn-emoji-animated {
-    width: 100px;
-    height: 100px;
-    margin-top: 4vh;
+    width: 80px;
+    height: 80px;
+    margin-top: 3.5vh;
 }
 
 .frens-header {
@@ -102,7 +102,7 @@ body {
 .invited-fren {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
     width: 85vw;
     margin-bottom: 1.5vh;
     padding-top: 1vh;
@@ -149,8 +149,8 @@ body {
     position: fixed;
     background-color: white;
     width: 90vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +175,7 @@ body {
 }
 
 .nav-item {
-    color: #FFE9A5; /* Цвет текста */
+    color: #ffffff; /* Цвет текста */
     text-align: center; /* Центрирование текста */
     text-decoration: none; /* Убирает подчеркивание */
     font-size: 14px; /* Размер шрифта */
