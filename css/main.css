@@ -31,6 +31,7 @@ body {
     color: white;
     font-size: 2.5vh;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .burn-emoji-score {
@@ -87,13 +88,8 @@ body {
     align-items: center;
     margin-top: 5vh;
     margin-bottom: 10vh;
-}
-
-.chests-background {
-    width: 350px;
-    height: 160px;
+    background-color: #f79351;
     border-radius: 25px;
-    position: absolute;
 }
 
 .in-chests{
@@ -105,10 +101,10 @@ body {
     align-items: center;
 }
 
-.chests-header {
+.gifts-header {
     display: flex;
     justify-content: start;
-    color: #FFE9A5;
+    color: #FFED69;
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 12vh;
@@ -120,7 +116,7 @@ body {
 }
 
 .open-chest {
-    color: #FFE9A5;
+    color: #FFED69;
     font-size: 24px;
     font-weight: bold;
     padding-top: 10vh;
