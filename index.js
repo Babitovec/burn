@@ -14,4 +14,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-WebApp.onEvent('viewportChanged', () => WebApp.expand())
+tg.onEvent('viewportChanged', () => tg.expand())
