@@ -6,7 +6,8 @@ body {
     font-family: "Roboto", sans-serif;
     position:fixed;
     width: 100%;
-    overflow: auto;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .score-stats {
