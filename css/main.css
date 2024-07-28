@@ -92,6 +92,14 @@ body {
     border-radius: 25px;
 }
 
+.chests-background {
+    width: 350px;
+    height: 160px;
+    background-color: #f79351;
+    border-radius: 25px;
+    position: absolute;
+}
+
 .in-chests{
     height: 160px;
     width: 350px;
