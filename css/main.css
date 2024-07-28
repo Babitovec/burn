@@ -4,6 +4,7 @@ body {
     background-color: #000;
     color: #000000;
     font-family: "Roboto", sans-serif;
+    position:fixed;
     width: 100%;
     overflow: auto;
 }
