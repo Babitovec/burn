@@ -4,6 +4,8 @@ body {
     background-color: #000;
     color: #000000;
     font-family: "Roboto", sans-serif;
+    width: 100%;
+    overflow: auto;
 }
 
 .score-stats {
