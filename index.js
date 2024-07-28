@@ -13,3 +13,5 @@ document.addEventListener("DOMContentLoaded", function() {
         usernameElements[i].textContent = username;
     }
 });
+
+WebApp.onEvent('viewportChanged', () => WebApp.expand())
