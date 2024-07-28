@@ -1,7 +1,7 @@
 const tg = window.Telegram.WebApp //позволяет работать с тг апи
 
 tg.expand(); // растягивает на фулл скрин при запуске
-tg.disableVerticalSwipes(); // Отключает скролл
+tg.isVerticalSwipesEnabled = false; // Отключает скролл
 
 // Получаем имя пользователя Telegram
 const username = tg.initDataUnsafe.user ? tg.initDataUnsafe.user.username : "Unknown User";
