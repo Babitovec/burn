@@ -13,5 +13,3 @@ document.addEventListener("DOMContentLoaded", function() {
         usernameElements[i].textContent = username;
     }
 });
-
-tg.onEvent('viewportChanged', () => tg.expand())
