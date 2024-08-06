@@ -130,13 +130,18 @@ body {
 }
 
 .navigation {
+   .navigation {
     display: flex;
     justify-content: space-around;
-    position: fixed;
-    bottom: 0;
+    position: fixed; /* Фиксирует элемент на экране */
+    bottom: 0; /* Закрепляет элемент у нижней границы экрана */
+    left: 0; /* Устанавливает левую границу элемента */
+    right: 0; /* Устанавливает правую границу элемента */
     width: 100%; /* Обеспечивает, что элементы будут распределены по всей ширине */
     background-color: #000000; /* Фон для навигации */
-    margin-bottom: 5vh;
+    padding: 10px 0; /* Отступы сверху и снизу для удобства */
+}
+
 }
 
 .nav-item {
