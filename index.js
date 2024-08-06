@@ -2,11 +2,6 @@ const tg = window.Telegram.WebApp //позволяет работать с тг 
 
 tg.expand(); // растягивает на фулл скрин при запуске
 
-//тест
-window.addEventListener("touchmove", (e) => e.preventDefault(), { passive: false });
-window.scrollTo(0, 100);
-Telegram.WebApp.ready()
-
 // Получаем имя пользователя Telegram
 const username = tg.initDataUnsafe.user ? tg.initDataUnsafe.user.username : "Unknown User";
 
